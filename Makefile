@@ -8,7 +8,6 @@ OBJS = $(SRCS:.c=.o)
 lshell: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LDLIBS)
 
-# each .o is rebuilt if its .c or any header changes
 %.o: %.c $(wildcard *.h)
 	$(CC) $(CFLAGS) -c $< -o $@
 
