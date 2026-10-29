@@ -7,7 +7,7 @@ This project requires the GNU Readline library (`readline.h`) to handle user inp
 
 ## Demo
 
-![lshell demo](demo.gif)
+<img src="demo.gif" alt="lshell demo" width="600">
 
 ## Closing
 
