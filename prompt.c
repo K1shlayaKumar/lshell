@@ -5,8 +5,8 @@
 
 #include "prompt.h"
 
-// making the ~/Downloads or ~/Documents type of prompt instead of the entire
-// path all the time
+// making the ~/Downloads or ~/Documents type of prompt instead of the entire path all the time
+
 void make_prompt(char *prompt, size_t size) {
   char pwd[4096];
   char *home = getenv("HOME");
